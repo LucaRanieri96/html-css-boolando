@@ -100,11 +100,14 @@ a , i{
 .bg-green{
     position: absolute;
     bottom: 6rem;
-    left: 3.5rem;
+    
     background-color: #008000;
     color: white;
     padding: 0.2rem 0.5rem;
     z-index: 3;
+}
+.aside{
+    left: 3.5rem;
 }
 .app-footer{
     background-color: #1a1a1a;
