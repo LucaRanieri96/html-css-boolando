@@ -84,6 +84,9 @@ a , i{
     font-size: 1.5rem;
     z-index: 3;
 }
+.heart:hover{
+    color: red;
+}
 .bg-red{
     position: absolute;
     bottom: 6rem;
