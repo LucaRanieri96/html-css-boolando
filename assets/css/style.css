@@ -18,6 +18,8 @@ body {
 }
 .d-flex{
     display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
 }
 a , i{
     color: white;
@@ -46,10 +48,11 @@ a , i{
     height: 1.5rem;
 }
 .card{
-    width: calc(100% / 12 * 4);
+    width: calc(90% / 12 * 4);
     position: relative;
     top: 0;
     right: 0;
+    margin: 1rem;
 }
 .show{
     width: 100%;
