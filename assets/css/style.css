@@ -24,10 +24,15 @@ a , i{
     text-decoration: none;
     
 }
+
 .just-c{
     flex-direction: row;
     justify-content: space-between;
 }
+.red{
+    color: red;
+}
+
 /* /Utilities */
 
 .app-header{
@@ -39,4 +44,56 @@ a , i{
 }
 .logo{
     height: 1.5rem;
+}
+.card{
+    width: calc(100% / 12 * 4);
+    position: relative;
+    top: 0;
+    right: 0;
+}
+.show{
+    width: 100%;
+    position: relative;
+    top: 0;
+    right: 0;
+    z-index: 1;
+}
+.hide{
+    width: 100%;
+    position: absolute;
+    top: 0;
+    right: 0;
+    display:none;
+    z-index: 2;
+}
+.card:hover .hide{
+    display: block;
+    cursor: pointer;
+}
+.heart{
+    position: absolute;
+    top: 1rem;
+    right: 0;
+    background-color: white;
+    padding: 0.5rem;
+    font-size: 1.5rem;
+    z-index: 3;
+}
+.bg-red{
+    position: absolute;
+    bottom: 6rem;
+    left: 0;
+    background-color: #ff0000;
+    color: white;
+    padding: 0.2rem 0.5rem;
+    z-index: 3;
+}
+.bg-green{
+    position: absolute;
+    bottom: 6rem;
+    left: 3.5rem;
+    background-color: #008000;
+    color: white;
+    padding: 0.2rem 0.5rem;
+    z-index: 3;
 }
